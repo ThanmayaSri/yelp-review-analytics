@@ -24,7 +24,7 @@ yelp-review-analytics/
 │ ├── create_business_table.sql # [AWS credentials redacted]
 │ ├── sentiment_udf.sql
 ├── outputs/
-│ └── sample_insights.csv
+│ └── analysis_queries.sql
 └── README.md
 
 ---
@@ -85,19 +85,21 @@ Please configure your own **Snowflake storage integration** or use environment v
 
 ---
 
-📈 Sample Insights
-🔍 “Restaurants in Phoenix have the highest average sentiment.”
-🏙️ “Las Vegas nightlife shows the most mixed reviews.”
-💬 “Neutral sentiments dominate reviews with 3 stars.”
+## 📈 Sample Insights
 
-🧪 Run It Yourself
-Clone the repo
+🔍 “**Restaurants in Phoenix** have the highest average sentiment.”  
+🏙️ “**Las Vegas nightlife** shows the most mixed reviews.”  
+💬 “**Neutral sentiments** dominate reviews with 3-star ratings.”
 
-Provide your own Yelp dataset
+---
 
-Upload to your S3 bucket
+## 🧪 Run It Yourself
 
-Configure Snowflake integration
-
-Run the SQL scripts
+1. 📥 **Clone the repo**
+2. 📂 **Provide your own Yelp dataset**  
+   Download the full dataset from [Yelp Open Dataset](https://www.yelp.com/dataset)  
+   or use the included Python script to generate split files.
+3. ☁️ **Upload to your S3 bucket**
+4. 🧊 **Configure Snowflake storage integration** securely
+5. 🧠 **Run the SQL scripts** to create tables, analyze sentiment, and extract insights
 
