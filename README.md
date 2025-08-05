@@ -18,14 +18,14 @@ This project demonstrates a complete cloud-based data pipeline that ingests and 
 
 yelp-review-analytics/
 ├── notebooks/
-│   └── split_and_upload.ipynb    # Python code to split and upload dataset
+│   └── split_and_upload.ipynb
 ├── snowflake/
-│   ├── create_reviews_table.sql  # SQL to create reviews table [AWS credentials redacted]
-│   ├── create_business_table.sql # SQL to create business table [AWS credentials redacted]
-│   ├── sentiment_udf.sql         # SQL UDF for sentiment analysis
+│   ├── create_reviews_table.sql
+│   ├── create_business_table.sql
+│   ├── sentiment_udf.sql
 ├── outputs/
-│   └── analysis_queries.sql      # SQL queries for data analysis
-└── README.md                     # Project overview and documentation
+│   └── analysis_queries.sql
+└── README.md
 
 ---
 
