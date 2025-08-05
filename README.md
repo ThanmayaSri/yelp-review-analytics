@@ -30,7 +30,7 @@ This project demonstrates a complete cloud-based data pipeline that ingests and 
 │   └── 📄 analysis_queries.sql – SQL queries for data analysis
 
 └── 📄 README.md – Project overview and documentation
-
+```
 ---
 
 ## ⚠️ Data Accessibility
